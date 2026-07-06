@@ -13,7 +13,7 @@ from gtts import gTTS
 from faker import Faker
 
 # ১. আপনার টোকেন ও এপিআই কি এখানে বসান
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 TRUECALLER_AUTH_KEY = 'YOUR_TRUECALLER_AUTH_KEY'
 
 bot = telebot.TeleBot(BOT_TOKEN)
