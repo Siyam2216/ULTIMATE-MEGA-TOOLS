@@ -1,7 +1,5 @@
 pyTelegramBotAPI
-pyshorteners
-truecallerpy
 requests
-qrcode
-gtts
+Pillow
 Faker
+gTTS
